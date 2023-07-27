@@ -15,6 +15,7 @@ class Mammals {
   get sound() {
     return this._sound
   }
+  
   speak() {
     console.log(`${this.name} makes a sound.`)
   }
