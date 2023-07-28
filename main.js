@@ -1,4 +1,5 @@
-// Classes/Objects utilizing 4 Pillars of OOP
+// Class Objects utilizing 4 Pillars of OOP
+// Encapsulation, Abstraction, Inheritance, Polymorphism
 class Mammals {
   constructor(name, breed, sound) {
     this._name = name
@@ -28,7 +29,7 @@ class Dog extends Mammals {
   
   speak() {
     super.speak()
-    console.log(`Dogs like ${this.name} speak by ${this._sound}`)
+    console.log(`Dogs like ${this.name} speak by ${this.sound}`)
   }
 }
 
@@ -39,7 +40,7 @@ class Cat extends Mammals {
   
   speak() {
     super.speak()
-    console.log(`Cats like ${this.name} sound like ${this._sound}`)
+    console.log(`Cats like ${this.name} sound like ${this.sound}`)
   }
 }
 
